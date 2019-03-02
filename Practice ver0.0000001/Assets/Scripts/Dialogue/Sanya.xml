@@ -1,0 +1,15 @@
+<dialogue>
+ <node>
+    <npctext>Что надо?</npctext>
+    <answers>
+      <answer tonode = "1" needquestvalue = "1"><text>Федя просит вернуть долг</text><questname>Quest2</questname></answer>
+      <answer tonode = "0"><text>Пока</text><dialend>true</dialend></answer>
+    </answers>
+ </node>
+  <node>
+    <npctext>Ой! А я совсем про это забыл, возьми конечно(Получено 100 монет)</npctext>
+    <answers>
+      <answer tonode = "0" needquestvalue = "1" questvalue = "2" rewardgold = "100"><text>Вот и хорошо</text><dialend>true</dialend><questname>Quest2</questname></answer>
+    </answers>
+  </node>
+</dialogue>

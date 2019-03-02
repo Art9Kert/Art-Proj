@@ -1,0 +1,38 @@
+<dialogue>
+  <node>
+    <npctext>Привет</npctext>
+    <answers>
+      <answer tonode = "1" needquestvalue = "0"><text>Привет что по работе?</text><questname>Quest1</questname></answer>
+      <answer tonode = "2"><text>Продаёшь?</text></answer>
+      <answer tonode = "0"><text>Ну я попёр</text><dialend>true</dialend></answer>
+      <answer tonode = "3" needquestvalue = "1"><text>Напомни что нужно делать</text><questname>Quest1</questname></answer>
+      <answer tonode = "4" needquestvalue = "2"><text>Задание выполнено</text><questname>Quest1</questname></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Да конечно, нажми на кнопку за моей спиной</npctext>
+    <answers>
+      <answer tonode = "0" questvalue = "1"><text>Пойдёт</text><dialend>true</dialend><questname>Quest1</questname></answer>
+      <answer tonode = "0"><text>Не пойдёт</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Не торгую</npctext>
+    <answers>
+      <answer tonode = "1" needquestvalue = "0"><text>Тогда квест</text><questname>Quest1</questname></answer>
+      <answer tonode = "0"><text>Пошёл я тогда</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Нажми на кнопку за моей спиной</npctext>
+    <answers>
+      <answer tonode = "0"><text>Спасибо</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Ты молодец</npctext>
+    <answers>
+      <answer tonode = "0" needquestvalue = "2" questvalue = "3" rewardgold = "500"><text>Деньги на базу</text><dialend>true</dialend><questname>Quest1</questname></answer>
+    </answers>
+  </node>
+</dialogue>

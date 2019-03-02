@@ -18,7 +18,7 @@ public class Door : MonoBehaviour
         anim.SetBool("OpenClose", OpenClose);
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log(1);
+            //Debug.Log(1);
             if (inArea == true)
             {
                 OpenClose = false;

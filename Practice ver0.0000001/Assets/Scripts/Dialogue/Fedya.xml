@@ -1,0 +1,44 @@
+<dialogue>
+ <node>
+    <npctext>Привет</npctext>
+    <answers>
+      <answer tonode = "1" needquestvalue = "0"><text>Задание есть?</text><questname>Quest2</questname></answer>
+      <answer tonode = "3" needquestvalue = "2" needgold = "100"><text>Я принёс деньги(Отдать 100 золотых)</text><questname>Quest2</questname></answer>
+      <answer tonode = "5" needquestvalue = "1"><text>Напомни задание</text><questname>Quest2</questname></answer>
+      <answer tonode = "0"><text>Пока</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Видишь парня слева, это Саня. Он мне сотку должен, если вернёшь половина твоя</npctext>
+    <answers>
+      <answer tonode = "0" questvalue = "1"><text>Окай</text><dialend>true</dialend><questname>Quest2</questname></answer>
+      <answer tonode = "0"><text>Не итересно</text><dialend>true</dialend></answer>
+      <answer tonode = "2"><text>Давай больше</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Не так не пойдёт</npctext>
+    <answers>
+      <answer tonode = "0"><text>Ну ладно</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Хорошо постарался</npctext>
+    <answers>
+      <answer tonode = "4"><text>А как же моя часть?</text></answer>
+      <answer tonode = "0"><text>Спасибо</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Ага забирай</npctext>
+    <answers>
+      <answer tonode = "0" needquestvalue = "2" questvalue = "3" rewardgold = "50"><text>Спасибо(Получено 50 золотых)</text><dialend>true</dialend><questname>Quest2</questname></answer>
+    </answers>
+  </node>
+  <node>
+    <npctext>Верни мои деньги</npctext>
+    <answers>
+      <answer tonode = "0"><text>Понял</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+</dialogue>
