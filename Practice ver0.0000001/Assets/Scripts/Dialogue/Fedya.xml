@@ -23,16 +23,16 @@
     </answers>
   </node>
   <node>
-    <npctext>Хорошо постарался</npctext>
+    <npctext>Хорошо постарался(Забирает 100 монет)</npctext>
     <answers>
-      <answer tonode = "4"><text>А как же моя часть?</text></answer>
+      <answer tonode = "4"><text>А как же моя половина?</text></answer>
       <answer tonode = "0"><text>Спасибо</text><dialend>true</dialend></answer>
     </answers>
   </node>
   <node>
     <npctext>Ага забирай</npctext>
     <answers>
-      <answer tonode = "0" needquestvalue = "2" questvalue = "3" rewardgold = "50"><text>Спасибо(Получено 50 золотых)</text><dialend>true</dialend><questname>Quest2</questname></answer>
+      <answer tonode = "0" needquestvalue = "2" questvalue = "3" rewardgold = "50"><text>...(Получено 50 золотых)</text><dialend>true</dialend><questname>Quest2</questname></answer>
     </answers>
   </node>
   <node>

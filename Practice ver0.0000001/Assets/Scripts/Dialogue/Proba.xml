@@ -1,0 +1,8 @@
+<dialogue>
+ <node>
+    <npctext>Привет</npctext>
+    <answers>
+      <answer tonode = "0"><text>Пока</text><dialend>true</dialend></answer>
+    </answers>
+  </node>
+</dialogue>
